@@ -26,9 +26,27 @@
             <div class="tweak-inner">
                 <div class="screenshot-row">
                     <div class="screenshot-track">
-                        <div class="screenshot"></div>
-                        <div class="screenshot"></div>
-                        <div class="screenshot"></div>
+                        <div class="screenshot">
+                            <img src="../images/1.png" alt="Screenshot 1">
+                        </div>
+                        <div class="screenshot">
+                            <img src="../images/2.png" alt="Screenshot 2">
+                        </div>
+                        <div class="screenshot">
+                            <img src="../images/3.png" alt="Screenshot 3">
+                        </div>
+                        <div class="screenshot">
+                            <img src="../images/4.png" alt="Screenshot 4">
+                        </div>
+                        <div class="screenshot">
+                            <img src="../images/5.png" alt="Screenshot 5">
+                        </div>
+                        <div class="screenshot">
+                            <img src="../images/6.png" alt="Screenshot 6">
+                        </div>
+                        <div class="screenshot">
+                            <img src="../images/7.png" alt="Screenshot 7">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -63,8 +81,37 @@
                 <li>Blah blah</li>
             </ul>
         </div>
+
+        <div class="modal" id="modal">
+            <span class="close">&times</span>
+            <img class="modal-content" id="modalImg">
+        </div>
+
     </div>
 </div>
+
+<script>
+const modal = document.getElementById("modal");
+const modalImg = document.getElementById("modalImg");
+const closeBtn = document.querySelector(".close");
+
+const screenshots = document.querySelectorAll(".screenshot img");
+
+for (let i = 0; i < screenshots.length; i++) {
+    screenshots[i].addEventListener("click", function() {
+        modal.classList.add("open");
+        modalImg.src = this.src;
+    });
+}
+
+closeBtn.onclick = function() {
+    modal.classList.remove("open");
+};
+
+modal.onclick = function() {
+    modal.classList.remove("open");
+};
+</script>
 
 </body>
 </html>
