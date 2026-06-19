@@ -207,7 +207,8 @@ a p:last-child {
     height: 100%;
     opacity: 0;
     visibility: hidden;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
     transition: opacity 0.2s ease, visibility 0.2s ease;
 }
 
@@ -221,13 +222,17 @@ a p:last-child {
     margin: 60px auto;
     max-width: 90%;
     max-height: 80%;
-    transform: scale(0.95);
-    transition:  transform 0.2s ease;
+    opacity: 1;
+    transform: scale(1);
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease;
     border-radius: 12px;
 }
 
-.modal.open .modal-content {
-    transform: scale(1);
+.modal-content.changing {
+    opacity: 0;
+    transform: scale(0.85);
 }
 
 .close {
@@ -237,6 +242,30 @@ a p:last-child {
     font-size: 30px;
     color: white;
     cursor: pointer;
+}
+
+.modal-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    width: 48px;
+    height: 48px;
+    border-radius: 999px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 24px;
+    color: white;
+}
+
+.next {
+    right: 24px;
+    color: white;
 }
 
 .tweak-meta {
