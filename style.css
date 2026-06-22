@@ -79,19 +79,30 @@ main {
     gap: 10px;
 }
 
-.repo-actions button {
-    padding: 12px 18px;
+.repo-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
     border-radius: 12px;
     border: 1px solid rgba(255,255,255,0.05);
     background: rgba(0,0,0,0.05);
     backdrop-filter: blur(16px);
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+    font-size: 14px;
     font-weight: 500;
-    cursor: pointer;
     transition:
         transform 0.2s ease,
         background 0.2s ease,
         border-color 0.2s ease;
+}
+
+.repo-btn:hover {
+    transform: translateY(-2px);
+    background: #89eed3;
+    border-color: rgba(5,255,193,0.25);
+    color: black;
 }
 
 .repo-actions button:hover {
@@ -364,8 +375,13 @@ footer {
 }
 
 .install-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     padding: 10px 14px;
     border-radius: 10px;
+    font-size: 14px;
     border: none;
     background: #89eed3;
     color: black;
