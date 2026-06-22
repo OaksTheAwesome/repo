@@ -359,30 +359,6 @@ footer {
     }
 }
 
-.card::before,
-.tweak-header::before,
-.tweak-section::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    background:
-        radial-gradient(
-            circle at top left,
-            rgba(255, 255, 255, 0.045),
-            rgba(255,255,255,0.025),
-            transparent 70%
-        ),
-        linear-gradient(
-            180deg,
-            rgba(255,255,255,0.03),
-            rgba(255,255,255,0.01)
-    );
-    pointer-events: none;
-    will-change: transform;
-    transform: translateZ(0);
-}
-
 .tweak-header {
     background: rgba(0,0,0,0.3);
     backdrop-filter: blur(24px);
@@ -622,7 +598,7 @@ footer {
 .tweak-section {
     max-width: 800px;
     margin: 18px auto;
-    background: rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(24px);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 14px;
