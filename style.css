@@ -1,7 +1,7 @@
 body {
     position: relative;
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 12px;
 }
 
 body::before {
@@ -62,7 +62,7 @@ main {
 
 .repo-header h1 {
     margin: 0;
-    font-size: 56px;
+    font-size: clamp(36px, 8vw, 56px);
     font-weight: 700;
     color: white;
 }
@@ -71,7 +71,22 @@ main {
     margin-top: 8px;
     font-size: 18px;
     color: rgba(255,255,255,0.75);
-}   
+}
+
+@media (max-width: 768px) {
+    .repo-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .repo-btn,
+    .repo-link {
+        width: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+}
 
 .repo-actions {
     margin-top: 14px;
@@ -205,9 +220,19 @@ main {
         0 8px 20px rgba(0,0,0,0.35);
 }
 
+@media (max-width: 768px) {
+    .featured-tweak {
+        flex-direction: column;
+        text-align: center;
+    }
+    .featured-content p {
+        max-width: none;
+    }
+}
+
 .tweak-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 18px;
 }
 
@@ -393,6 +418,12 @@ footer {
     transform: translateY(-2px);
 }
 
+.card:active,
+.repo-btn:active,
+.install-btn:active {
+    transform: scale(0.98);
+}
+
 .screenshot-row {
     overflow-x: auto;
     padding: 0 16px;
@@ -504,6 +535,20 @@ footer {
     cursor: pointer;
         transition:
         transform 0.2s ease, background 0.2s ease;
+}
+
+@media (max-width: 768px) {
+    .modal-nav {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .prev {
+        left: 10px;
+    }
+    .next {
+        right: 10px;
+    }
 }
 
 .modal-nav:hover {
