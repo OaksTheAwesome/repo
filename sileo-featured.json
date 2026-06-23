@@ -1,0 +1,11 @@
+{
+  "class": "FeaturedBannersView",
+  "banners": [
+    {
+      "package": "com.oakstheawesome.whatamess",
+      "title": "WhatAMess",
+      "url": "https://oakstheawesometweaks.github.io/repo/images/whatamess-preview.png",
+      "hideShadow": false
+    }
+  ]
+}

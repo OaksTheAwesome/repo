@@ -12,6 +12,8 @@ SHA256: 568cb85a5fe2f350a195946013944449cac449a86b23ee8a095e6e1294d10f9e
 Section: Tweaks
 Description: Messy, messy Messages.
 Author: OaksTheAwesome
-Depiction: https://oakstheawesometweaks.github.io/repo/depictions/?p=com.oakstheawesome.whatamess
+Icon: https://oakstheawesometweaks.github.io/repo/images/whatamess-icon.png
+SileoDepiction: https://oakstheawesometweaks.github.io/repo/depictions/com.oakstheawesome.whatamess.json
+Depiction: https://oakstheawesometweaks.github.io/repo/tweaks/WhatAMess.html
 Name: WhatAMess
 

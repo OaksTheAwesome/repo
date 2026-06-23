@@ -1,0 +1,120 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#89eed3",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "url": "https://oakstheawesometweaks.github.io/repo/images/1.png",
+              "accessibilityText": "Screenshot 1"
+            },
+            {
+              "url": "https://oakstheawesometweaks.github.io/repo/images/2.png",
+              "accessibilityText": "Screenshot 2"
+            },
+            {
+              "url": "https://oakstheawesometweaks.github.io/repo/images/3.png",
+              "accessibilityText": "Screenshot 3"
+            },
+            {
+              "url": "https://oakstheawesometweaks.github.io/repo/images/4.png",
+              "accessibilityText": "Screenshot 4"
+            },
+            {
+              "url": "https://oakstheawesometweaks.github.io/repo/images/5.png",
+              "accessibilityText": "Screenshot 5"
+            },
+            {
+              "url": "https://oakstheawesometweaks.github.io/repo/images/6.png",
+              "accessibilityText": "Screenshot 6"
+            },
+            {
+              "url": "https://oakstheawesometweaks.github.io/repo/images/7.png",
+              "accessibilityText": "Screenshot 7"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "WhatAMess allows you to customize Messages to your heart's desire! A modern Messages customization tweak for iOS 15–17.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Features"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Etc\n- Etc\n- Etcetra\n- Blah blah",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "OaksTheAwesome"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Section",
+          "text": "Tweaks"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS Compatibility",
+          "text": "iOS 15 – 17"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Price",
+          "text": "Free"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Version 1.2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial release",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    }
+  ]
+}
