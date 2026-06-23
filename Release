@@ -6,3 +6,15 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: It's a little... messy...
+MD5Sum:
+ df9fb9cb68a5b887864cc1048c78d187 586 Packages
+ 8054e64c7f68a928324488fa72ceb44b 405 Packages.gz
+ c360cff862703f9121328b6f0ed7412c 432 Packages.bz2
+SHA1:
+ a2725388b47e4824a68c10fe40e4c240c3483426 586 Packages
+ 2fee51a1639e236b1b26efd69dbbbae7b8cb20c2 405 Packages.gz
+ 729357f4c4a6b26dd42f11bf8e3a3ce47493969f 432 Packages.bz2
+SHA256:
+ 39eaaece57b1d53f9218d7e861144d0f4de1fdb88000efae62b7bec8920a5bdc 586 Packages
+ ae5e38a7e299e27bd9426a5505b000d3a4f25707826610bebd7bcdc40247edc7 405 Packages.gz
+ 40ce577bf7a42b9b9edb03ccb7c514e4103f74bbb5fbb657c3a75d4cb8f40e96 432 Packages.bz2
