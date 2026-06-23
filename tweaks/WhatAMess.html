@@ -109,11 +109,13 @@ let startX = 0;
 function openModal() {
     modal.classList.add("open");
     document.body.classList.add("modal-open");
+    document.documentElement.classList.add("modal-open");
 }
 
 function closeModal() {
     modal.classList.remove("open");
     document.body.classList.remove("modal-open");
+    document.documentElement.classList.remove("modal-open");
 }
 
 function showImage(index) {
