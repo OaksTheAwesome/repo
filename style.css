@@ -658,3 +658,11 @@ body.modal-open {
     margin-bottom: 6px;
     color: rgba(255, 255, 255, 0.75);
 }
+
+.github-link {
+    color: #89eed3
+}
+
+.github-link:visited{
+    color: #89eed3;
+}
