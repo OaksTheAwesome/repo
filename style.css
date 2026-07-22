@@ -631,6 +631,15 @@ body.modal-open {
     letter-spacing: 0.06em;
 }
 
+.tweak-section h3 {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 6px 0;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
 .tweak-section p {
     font-size: 14px;
     line-height: 1.5;
