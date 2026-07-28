@@ -1,4 +1,25 @@
 Package: com.oakstheawesome.whatamess
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: OaksTheAwesome <oaknintendo@gmail.com>
+Installed-Size: 4480
+Depends: mobilesubstrate (>= 0.9.5000), zip, unzip
+Filename: ./debs/com.oakstheawesome.whatamess_1.3.deb
+Size: 2903014
+MD5sum: e32a430ca659694f8af1653a868f4866
+SHA1: e57fcbba64bd9dfc9fbd28f0f7ad15fea9795238
+SHA256: e7d889bc00a5a21b28865d629b41098097e33445f038dce6dbd8d6a47bb03e96
+Section: Tweaks
+Description: Messy, messy Messages.
+Author: OaksTheAwesome <oaknintendo@gmail.com>
+Homepage: https://oakstheawesome.github.io/repo
+Icon: https://oakstheawesome.github.io/repo/images/whatamess-icon.png
+Name: WhatAMess
+Tags: compatible_min::ios15.0, compatible_max::ios18.0
+Depiction: https://oakstheawesome.github.io/repo/tweaks/WhatAMess.html
+SileoDepiction: https://oakstheawesome.github.io/repo/depictions/com.oakstheawesome.whatamess.json
+
+Package: com.oakstheawesome.whatamess
 Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: OaksTheAwesome <oaknintendo@gmail.com>
