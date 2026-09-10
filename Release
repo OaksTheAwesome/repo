@@ -1,20 +1,20 @@
 Origin: OaksTheAwesome's Repo
 Label: OaksTheAwesome's Repo
 Suite: stable
-Version: 1.3
+Version: 1.4
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: It's a little... messy...
 MD5Sum:
- 41481ab9af5d33502c3111c457e565f4 1770 Packages
- a6aa9b665efd4974a08211b117c809ce 621 Packages.gz
- ff05c1e89b2e7ee1ce99a433036f80bd 748 Packages.bz2
+ 8f7ac6e6a26bd2b3305db7db8c6ec070 2663 Packages
+ 6f46377513df44433bacb1cf51a87731 751 Packages.gz
+ f7631a0fa0c6d1453444b7a078903b7c 900 Packages.bz2
 SHA1:
- 32037c74599e491442d62dfe571e0fefc01b48b9 1770 Packages
- e26eebd001364f2ec07ceedac79a727ff4775b6f 621 Packages.gz
- 3d03064cf36059065b5e0fabb7217de1c99727c7 748 Packages.bz2
+ 5a1357bd1809416431427a7da2b01bbf90a10e49 2663 Packages
+ e7b87043049cfe602458b4104bcb6f0c7b5bbae5 751 Packages.gz
+ b8843b405e29220bff1abb8fd5ffb1174020d9fe 900 Packages.bz2
 SHA256:
- d60f9af26bbaeb2101c81cb7af2bf55c78974f3038d292d5451b54559accdd8b 1770 Packages
- 6947f1845dd438b69386cc0dba6c8e1044e866d709098115b67c14075ccc76d0 621 Packages.gz
- 6196064590b4191bf1d7d65808ef18d789903f12831f9d7372a737f0df3a8011 748 Packages.bz2
+ 7805c7b15f65c25ecaf0c85aefaadfb558eeaf41998564070710c462be972abe 2663 Packages
+ 76ad49330b28a1a50d1d6b348d11dab84e9db671d92d60d3d325fcabb4333682 751 Packages.gz
+ cd64d47658f95173a8e891691a435a779b7632583c16762cc30d35c35f339e30 900 Packages.bz2
